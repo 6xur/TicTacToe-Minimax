@@ -100,7 +100,7 @@ public class Main extends Application{
                 if (!hasText(button)) {
                     setSymbol(button, player);
 
-                    // see what it's like to be there (by making the minimising player make a move)
+                    // see what it's like to be there (by making the minimising player take a step)
                     int score = minimax(buttons, "player")[0];
                     if (score >= bestScore) {
                         bestScore = score;
@@ -166,7 +166,7 @@ public class Main extends Application{
 
                 boolean boardIsFull = isFull(buttons);
 
-                // check winner after player make a move
+                // check for winner after player makes a move
                 String winner = getWinner(buttons);
                 if(winner.length() > 0){  // if there is a winner
                     disableButtons(buttons);
@@ -176,14 +176,14 @@ public class Main extends Application{
                     }
                 }
 
-                // ai turn
+                // AI's turn
                 if(!boardIsFull && getWinner(buttons).length() == 0){
                     int move = minimax(buttons, "ai")[1];
                     Button but = buttons.get(move);
                     setSymbol(but, "ai");
                     but.setDisable(true);
 
-                    // check winner after ai makes a move
+                    // check for winner after AI makes a move
                     winner = getWinner(buttons);
                     if(winner.length() > 0){
                         disableButtons(buttons);
