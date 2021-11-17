@@ -10,10 +10,9 @@ import java.util.Random;
 
 public class Main extends Application{
     public void start(Stage stage) throws Exception{
-        stage.setTitle("TicTacToe");
         Parent root = FXMLLoader.load(getClass().getResource("Main.fxml"));
         Scene scene = new Scene(root);
-        scene.setOnKeyPressed(event -> {
+        scene.setOnKeyPressed(event -> {  // resets the game when "r" is pressed
             if(event.getCode() == KeyCode.R){
                 ArrayList<Button> buttons = Controller.buttons;
                 Controller.resetButtons(buttons);
@@ -27,8 +26,8 @@ public class Main extends Application{
                 }
             }
         });
-
         stage.setScene(scene);
+        stage.setTitle("TicTacToe");
         stage.show();
     }
 
