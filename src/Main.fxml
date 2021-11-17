@@ -20,15 +20,15 @@
           <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
         </rowConstraints>
          <children>
-            <Button fx:id="button0" focusTraversable="false" mnemonicParsing="false" prefHeight="160.0" prefWidth="140.0" text="Button" />
-            <Button fx:id="button1" focusTraversable="false" mnemonicParsing="false" prefHeight="207.0" prefWidth="176.0" text="Button" GridPane.columnIndex="1" />
-            <Button fx:id="button2" focusTraversable="false" mnemonicParsing="false" prefHeight="172.0" prefWidth="175.0" text="Button" GridPane.columnIndex="2" />
-            <Button fx:id="button3" focusTraversable="false" mnemonicParsing="false" prefHeight="124.0" prefWidth="166.0" text="Button" GridPane.rowIndex="1" />
-            <Button fx:id="button4" focusTraversable="false" mnemonicParsing="false" prefHeight="126.0" prefWidth="158.0" text="Button" GridPane.columnIndex="1" GridPane.rowIndex="1" />
-            <Button fx:id="button5" focusTraversable="false" mnemonicParsing="false" prefHeight="170.0" prefWidth="173.0" text="Button" GridPane.columnIndex="2" GridPane.rowIndex="1" />
-            <Button fx:id="button6" focusTraversable="false" mnemonicParsing="false" prefHeight="118.0" prefWidth="138.0" text="Button" GridPane.rowIndex="2" />
-            <Button fx:id="button7" focusTraversable="false" mnemonicParsing="false" prefHeight="123.0" prefWidth="148.0" text="Button" GridPane.columnIndex="1" GridPane.rowIndex="2" />
-            <Button fx:id="button8" focusTraversable="false" mnemonicParsing="false" prefHeight="155.0" prefWidth="173.0" text="Button" GridPane.columnIndex="2" GridPane.rowIndex="2" />
+            <Button fx:id="button0" focusTraversable="false" mnemonicParsing="false" prefHeight="160.0" prefWidth="140.0" />
+            <Button fx:id="button1" focusTraversable="false" mnemonicParsing="false" prefHeight="207.0" prefWidth="176.0" GridPane.columnIndex="1" />
+            <Button fx:id="button2" focusTraversable="false" mnemonicParsing="false" prefHeight="172.0" prefWidth="175.0" GridPane.columnIndex="2" />
+            <Button fx:id="button3" focusTraversable="false" mnemonicParsing="false" prefHeight="124.0" prefWidth="166.0" GridPane.rowIndex="1" />
+            <Button fx:id="button4" focusTraversable="false" mnemonicParsing="false" prefHeight="126.0" prefWidth="158.0" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+            <Button fx:id="button5" focusTraversable="false" mnemonicParsing="false" prefHeight="170.0" prefWidth="173.0" GridPane.columnIndex="2" GridPane.rowIndex="1" />
+            <Button fx:id="button6" focusTraversable="false" mnemonicParsing="false" prefHeight="118.0" prefWidth="138.0" GridPane.rowIndex="2" />
+            <Button fx:id="button7" focusTraversable="false" mnemonicParsing="false" prefHeight="123.0" prefWidth="148.0" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+            <Button fx:id="button8" focusTraversable="false" mnemonicParsing="false" prefHeight="155.0" prefWidth="173.0" GridPane.columnIndex="2" GridPane.rowIndex="2" />
          </children>
       </GridPane>
    </children>
