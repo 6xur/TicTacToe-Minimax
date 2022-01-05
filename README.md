@@ -1,7 +1,9 @@
 # TicTacToe-Minimax
+
 A basic Tic-tac-toe AI using Minimax Algorithm.
 
 ## How To Run:
+
 If you want to play the game, run [TicTacToe.jar](TicTacToe.jar).
 
 If you have JavaFX SDK installed on Windows, execute the following:
